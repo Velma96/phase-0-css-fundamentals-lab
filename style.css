@@ -2,4 +2,59 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+
+  header{ 
+    text-align: center
+  ;} 
+
+  
+  /* Center navigation links and style <a> tags */
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 10px 10px; /* 10px padding on left and right */
+    text-decoration: none; /* Remove underlines */
+    background-color: #858383; /* Customize the color */
+    font-size: 16px;
+  }
+
+  nav a:hover {
+    color: #0066cc; /* Change color on hover */
+  }
+
+  #featured-property{
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for the image's own size */
+    text-align: center;
+    font-size: smaller;
+  }
+
+  #details{
+    position: fixed; 
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    float: left;
+    background-color: crimson;
+    font-size: smaller;
+    justify-content: space-between;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+  
+  }
+   
+  
 }
+
+  
+
